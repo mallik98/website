@@ -1,0 +1,58 @@
+body{
+	background-color: white; 
+}
+#content{
+	max-width: 960px;
+	margin: auto;
+	margin-top: 0px;
+	padding: 0px;
+	background-color: white;
+}
+#content h1{
+	color:#800000;
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 0px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+#form, #contact{
+	padding-left: 6em;
+	float: left;
+	overflow: hidden;
+}
+
+.text{
+	width: 380px;
+	margin: 5px;
+	height: 30px;
+	font-family: sans-serif;
+
+}
+input{
+    padding-left: 5px;
+}
+.textarea{
+	padding-left: 5px;
+	width: 380px;
+	margin: 5px; 
+	font-family: sans-serif;
+}
+.submit{
+	width: 60px;
+	height: 30px;
+	color: white;
+	background-color: #800000;
+	border: none;
+	float: right;
+}
+#contact{
+	padding-left: 3em;
+	margin: 0px;
+	}
+#p1{
+	margin-top: 0px;
+}
+#contact p{
+	color:#A9A9A9; 
+}

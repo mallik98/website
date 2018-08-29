@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/basic.css">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+<head>
+	<link rel="shortcut icon" href="img/logo1.ico" />
+	<title>Gurukul Academy, Lucknow, India</title>
+</head>
+<body>
+
+<!--Header-->
+<header>
+	<h1>Gurukul Academy</h1>
+	<div id="login">
+	<!-- Button to open the modal login form -->
+	<button id="login1"onclick="document.getElementById('id01').style.display='block'"><img src="img/image.png" title="Log In"></button>
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" 
+class="close" title="Close Modal">&times;</span>
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="img/img-avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <input type="text" placeholder="Username" name="uname" required>
+
+      <input type="password" placeholder="Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+	
+</div>
+</header>
+
+<!--Navigation-->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active-page">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="#">Prospectus</a>
+  <a href="#">Academics</a>
+  <a href="#">Events</a>
+  <a href="#">Gallery</a>
+  <a href="#">Admission</a>
+  <a href="#">Prizes & Awards</a>
+  <a href="#">School Blog</a>
+  <a href="contact.html">Contact Us</a>
+
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<!--Slideshow-->
+<section>
+  <img class="mySlides" src="img/yoga11.jpg"style="width:100%">
+  <img class="mySlides" src="img/pool11.jpg"style="width:100%">
+</section>
+
+
+<!--Content-->
+<div class="content">
+	<div class="left">
+	<div class="para" id="p1">
+	<h2>Welcome to Gurukul Academy</h2>
+	<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.</p>
+	</div>
+
+	<div class="para">
+	<h2>Our Motto</h2>
+	<p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.</p>
+	</div>
+	</div>
+</div>
+
+<!--Footer-->
+<footer>
+	<div id="f1">
+		<a href="https://www.facebook.com/grkladlko/" target="_blank"><img src="img/fb.png" style="width:30px; height:30px;"></a>
+		<p>&copy; 2017 Gurukul Academy,<br>All Rights Reserved</p>
+	</div>
+	<div id="f2">
+		<h4>Contact Us</h4>
+		<p>Tel:0522-2353610<br>Email:kingchess32@gmail.com</p>
+	</div>
+	<div id="f3">
+		<h4>Address</h4>
+		<p>Adj. to Bhootnath Ashram,<br>
+			Indira Nagar,Lucknow</p>
+	</div>
+	<!--  then magic trick comes here  -->
+	<br style="clear: left;" />
+</footer>
+
+<script type="text/javascript" src="scripts/index.js"></script>
+</body>
